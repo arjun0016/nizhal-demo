@@ -1,0 +1,19 @@
+.first{
+    width: 100%;
+    height: 1900px;
+    background-image: linear-gradient(83deg, #3de85d, #03f6f4 28%, #03f6f4 46%, #30b6ff 62%, #00f0ff 75%, #6a54ff);
+    filter: blur(350px);
+    opacity: 0.6;
+}
+.firstContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.firstContent h1{
+    color: white;
+}
+.firstContent h2{
+    color: white;
+}

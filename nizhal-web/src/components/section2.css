@@ -1,0 +1,125 @@
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top:0%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.222);
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding-inline: 20px;
+}
+.round{
+    position: fixed;
+    top: -50%;
+    left: -30%;
+    animation: rotate 3s linear infinite
+}
+.round img{
+    width: 900px;
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.firstContent{
+    position: fixed;
+    top: 0%;
+    height: 100vh;
+}
+.firstContent h1{
+    font-weight:700;
+    font-size: 100px;
+    margin-block-end: 0;
+
+}
+.firstContent h2 {
+    margin-block-start: 0;
+    font-size: 200px;
+    background-image: linear-gradient(87deg, #3de85d, #03f6f4 57%, #6a54ff);
+    color: transparent;
+    background-clip: text;
+    margin-block-end: 0;
+
+}
+.firstContent p {
+    margin-block-start: 0;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+.secondContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    margin-block-start: -1500px;
+}
+
+.img-phone{
+    position: sticky;
+    top: 35%;
+    z-index: 2;
+}
+
+.img-phone img{
+    width: 390px;
+    height:770px;
+    object-fit: contain;
+}
+
+.img-background{
+    width: 325px;
+    height:680px;
+    z-index: 1;
+    position: sticky;
+    top: 40%;
+    overflow: hidden;
+    border-radius:40px;
+}
+
+.img-background img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-bottom-right-radius:130px;
+    border-bottom-left-radius:130px;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 92%);
+}
+.all-icons{
+    margin-top:550px;
+    position: sticky;
+    top: 40%;
+}
+
+
+
+
+
+
